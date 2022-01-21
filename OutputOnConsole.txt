@@ -1,0 +1,28 @@
+"C:\Py Interpret\Scripts\python.exe" C:/Users/lenovo/PycharmProjects/STP/stp.py
+(148, 10) (66, 10) (214, 10)
+0.8445945945945946
+0.722972972972973
+Accuracy = 0.5454545454545454
+Predicted Values = [1 1 1 2 2 2 2 1 1 1 1 1 2 1 1 1 1 1 1 1 1 2 1 2 1 2 2 2 2 7 1 1 1 1 1 2 2
+ 2 2 1 1 2 1 1 1 2 2 2 1 1 5 7 7 7 7 2 2 7 7 5 7 7 7 7 7 7]
+Actual Values= [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 2 2 2 2 3 3 3 3 3 3 5 5 5 5 6 6 6 7 7 7 7 7 7 7 7 7]
+[[16  5  0  0  0  0]
+ [11 11  0  0  0  1]
+ [ 3  3  0  0  0  0]
+ [ 0  0  0  1  0  3]
+ [ 0  2  0  0  0  1]
+ [ 0  0  0  1  0  8]]
+False Positives = [14. 10.  0.  1.  0.  5.]
+False Negatives = [ 5. 12.  6.  3.  3.  1.]
+True Positives = [16. 11.  0.  1.  0.  8.]
+True Negatives = [31. 33. 60. 61. 63. 52.]
+Sensitivity = [0.76190476 0.47826087 0.         0.25       0.         0.88888889]
+  PPV = TP/(TP+FP)
+Specificity = [0.68888889 0.76744186 1.         0.98387097 1.         0.9122807 ]
+  FDR = FP/(TP+FP)
+Precision = [0.53333333 0.52380952        nan 0.5               nan 0.61538462]
+False Positive Rate = [0.31111111 0.23255814 0.         0.01612903 0.         0.0877193 ]
+False Negative Rate = [0.23809524 0.52173913 1.         0.75       1.         0.11111111]
+
+Process finished with exit code 0
